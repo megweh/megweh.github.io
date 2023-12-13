@@ -3,7 +3,7 @@
     .navbar {
         height: 100px;
         margin-bottom: 0;
-        padding: 2%;
+        padding: 0.5%;
     }
 
     .navbar-brand {
@@ -46,6 +46,11 @@
 
   img {
     display: block;
+  }
+
+  .img-responsive {
+    height: auto;
+    width: auto;
   }
 
   /*Media Query for Desktop Viewport*/
