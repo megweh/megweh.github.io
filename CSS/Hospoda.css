@@ -53,8 +53,8 @@
 
   }
 
-  /*Media Query for Tablet Viewport*/
-@media screen and (min-width: 550px), print {
+  /*Media Query for Mobile Viewport*/
+  @media screen and (min-width: 320px), print {
 
   }
 
