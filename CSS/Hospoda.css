@@ -1,0 +1,66 @@
+    
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+        height: 100px;
+        margin-bottom: 0;
+        padding: 2%;
+    }
+
+    .navbar-brand {
+      margin-top: 0%;
+    }
+
+    nav {
+      font-family: 'DM Serif Display', serif;
+      font-size: large;
+    }
+    
+    .carousel-caption {
+      font-family: 'DM Serif Display', serif;
+    }
+
+    h3 {
+      font-family: 'DM Serif Display', serif;
+      color: #f5cba7;
+    }
+    
+    p {
+      font-family: 'DM Serif Display', serif;
+    }
+
+    body {
+      background-image: radial-gradient(#935116, #F0B27A);
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: black;
+      color: white;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      height: auto;
+  }
+
+  img {
+    display: block;
+  }
+
+  /*Media Query for Desktop Viewport*/
+  @media screen and (min-width: 769px), print {
+
+  }
+
+  /*Media Query for Tablet Viewport*/
+@media screen and (min-width: 550px), print {
+
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
